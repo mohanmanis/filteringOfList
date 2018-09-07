@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <title>Title</title>
+</head>
+<body>
+<main class="main-container">
+
+    <section class="section">
+        <h2 class="text-center">Filters</h2>
+        <div class="filters">
+            <div class="price-range">
+                <h2>Price</h2>
+                <div class="price-range-filter">
+                  <select class="price-min-select">
+                   </select>
+                </div>
+                <div class="filter-to">to</div>
+                <div class="price-range-filter">
+                    <select class="price-max-select">
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div class="brand-filter">
+                <h2>BRAND</h2>
+                <input type="text" id="searchBrand" onkeyup="brandSearchFunction()"
+                       placeholder="Search Brand">
+            </div>
+            <hr>
+            <div class="color-filter">
+                <h2>COLOR</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+
+        <h2 class="text-center">Products</h2>
+        <div>
+            <span> Sort By:</span>
+            <span style="display:inline-block" onclick="sortByPrice('asc')" >Price -Low to High</span>
+            <span style="display:inline-block" onclick="sortByPrice()" >Price - High to Low</span>
+        </div>
+        <div class="products">
+        </div>
+    </section>
+</main>
+
+<script src="./js/filters.js"></script>
+<script src="./js/productInfo.js"></script>
+</body>
+</html>

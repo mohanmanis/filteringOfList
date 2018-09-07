@@ -1,0 +1,23 @@
+{
+  "name": "filteroflist",
+  "version": "1.0.0",
+  "description": "This aims at filtering from the list of the items",
+  "main": "index.html",
+  "scripts": {
+    "test": "\t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanmanis/filteringOfList.git"
+  },
+  "keywords": [
+    "javascript",
+    "filters"
+  ],
+  "author": "Manish Mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanmanis/filteringOfList/issues"
+  },
+  "homepage": "https://github.com/mohanmanis/filteringOfList#readme"
+}
